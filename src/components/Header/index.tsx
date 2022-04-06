@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-import { currenciesAPI } from "src/store/currencies";
 import * as S from "./styles";
+import { currenciesAPI } from "src/store/currencies";
 
 export const Header: React.FC = () => {
   const [firstValue, setFirstValue] = useState<string>();
